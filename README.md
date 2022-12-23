@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+# Examenopdracht Front-end Web Development / Web Services
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Schrap hierboven wat niet past
+
+- Student: Berre Vandewalle
+- Studentennummer: 202182398
+- E-mailadres: berre.vandewalle@student.hogent.be
+
+## Vereisten
+
+Ik verwacht dat volgende software reeds geïnstalleerd is:
+
+- [NodeJS](https://nodejs.org)
+- [Yarn](https://yarnpkg.com)
+- [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+- ...
+
+## Project
+
+Dit projet gaat over het fiets merk "cervélo".
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+## Opstarten
+
+## env
+
+volgende moet worden toegevoegd aan het .env bestand
+
+REACT_APP_API_URL='http://localhost:9000/api'
+REACT_APP_AUTH0_DOMAIN={'dev-pfq0u0r7receuu0q.eu.auth0.com'}
+REACT_APP_AUTH0_CLIENT_ID={'ArWnWSxY6mMUeUdaHlWsB89RK8anarwR'}
+REACT_APP_AUTH0_API_AUDIENCE={'http://cervelo-fietsen.berre-hogent.be'}
 
 ### `npm start`
 
@@ -13,6 +43,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Testen
 
 ### `npm test`
 
@@ -68,3 +100,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## How to use
+
+om een fiets toe te voegen/aan te passen/ te verwijderen moet er eerst ingelogd/geregistreerd worden
